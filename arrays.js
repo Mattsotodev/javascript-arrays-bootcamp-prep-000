@@ -18,16 +18,16 @@ function destructivelyAddElementToEndOfArray(chocolateBars, candy){
 function accessElementInArray(array, index){
  return array[index];
 }
-function destructivelyRemoveElementFromBeginningOfArray(array){
-  return array.shift();
+function destructivelyRemoveElementFromBeginningOfArray(chocolateBars){
+  return chocolateBars.shift();
 }
-function removeElementFromBeginningOfArray(array){
-  array.slice(1);
+function removeElementFromBeginningOfArray(chocolateBars){
+  chocolateBars.slice(1);
 }
-function destructivelyRemoveElementFromEndOfArray(array){
+function destructivelyRemoveElementFromEndOfArray(chocolateBars){
   array.pop();
 }
-function removeElementFromEndOfArray(array){
+function removeElementFromEndOfArray(chocolateBarsy){
   return array.slice(0,array.length - 1)
 }
 
